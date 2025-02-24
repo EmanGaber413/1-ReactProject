@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
-// eslint-disable-next-line react/prop-types
+ 
 export default function NewsCard({newsItem}) {
-  // eslint-disable-next-line react/prop-types
+   
   const{urlToImage,title,description,author,source,url}= newsItem;
   return <>
   
